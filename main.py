@@ -1,16 +1,13 @@
-# This is a sample Python script.
+#1.	Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print('Введите число a от 1 до 7: ')
+a = int(input())
+if a > 7 or a < 1:
+    print('Введите верное число')
+elif a < 5:
+    print('Это рабочий день')
+else:
+    print('Ура, выходной!')
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
